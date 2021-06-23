@@ -11,7 +11,14 @@
        
     </head>
     <body>
+        <?php foreach ($posts as $post) :?>
+
         <article>
+            <?= $post; ?>
+        </article>
+        <?php endforeach ; ?>
+
+        {{-- <article>
         <h1> <a href="/post/my-first-post"> What is Lorem Ipsum? </a>
         </h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
@@ -41,7 +48,7 @@
              chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of
               model sentence structures, to generate Lorem Ipsum which looks reasonable. 
             The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-    </article>
+    </article> --}}
     </body>
     
     
